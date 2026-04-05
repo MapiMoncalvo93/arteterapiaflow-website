@@ -42,6 +42,29 @@ export default function ContactoPage() {
         </div>
       </section>
 
+      {/* Info pills */}
+      <section className="bg-crema pb-2 pt-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { emoji: '📅', label: 'Horarios', value: 'Lun–Vie 9 a 20 hs', color: 'bg-terracota/10 border-terracota/20', textColor: 'text-terracota' },
+              { emoji: '📍', label: 'Modalidad', value: 'Presencial en Cordón u Online', color: 'bg-salvia/10 border-salvia/20', textColor: 'text-salvia' },
+              { emoji: '⏱️', label: 'Primera consulta', value: 'Gratuita · 20 min', color: 'bg-ocre/10 border-ocre/20', textColor: 'text-ocre' },
+              { emoji: '✅', label: 'Disponibilidad', value: 'Sin turnos de espera', color: 'bg-terracota/10 border-terracota/20', textColor: 'text-terracota' },
+            ].map((item) => (
+              <div
+                key={item.label}
+                className={`flex flex-col items-center text-center gap-2 rounded-2xl border px-4 py-5 ${item.color}`}
+              >
+                <span className="text-2xl">{item.emoji}</span>
+                <p className={`font-body text-xs font-bold uppercase tracking-widest ${item.textColor}`}>{item.label}</p>
+                <p className="font-body text-sm text-negro/80 leading-snug">{item.value}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Contact Content */}
       <section className="bg-crema py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
