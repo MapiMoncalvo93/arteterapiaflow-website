@@ -2,6 +2,7 @@ import Hero from '@/components/Hero'
 import SobreMi from '@/components/SobreMi'
 import ServiciosSection from '@/components/ServiciosSection'
 import Testimonios from '@/components/Testimonios'
+import InstagramFeed from '@/components/InstagramFeed'
 import Contacto from '@/components/Contacto'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <SobreMi />
       <ServiciosSection />
       <Testimonios />
+      <InstagramFeed />
       <Contacto />
     </>
   )
