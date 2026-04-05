@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ContactoForm from '@/components/ContactoForm'
+import CalendlyWidget from '@/components/CalendlyWidget'
 
 export const metadata: Metadata = {
   title: 'Contacto | ArteterapiaFlow',
@@ -152,6 +153,24 @@ export default function ContactoPage() {
             {/* Right: Full Contact Form */}
             <ContactoForm />
           </div>
+        </div>
+      </section>
+
+      {/* Calendly inline */}
+      <section className="bg-crema py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <span className="inline-block font-body text-xs font-bold uppercase tracking-[0.2em] text-terracota bg-terracota/10 px-4 py-2 rounded-full mb-4">
+              Agendá online
+            </span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-negro">
+              Elegí tu horario
+            </h2>
+            <p className="font-body text-negro/60 mt-3 text-base max-w-md mx-auto">
+              Seleccioná el día y la hora que mejor se adapte a vos. Confirmación inmediata.
+            </p>
+          </div>
+          <CalendlyWidget url="https://calendly.com/arteterapiaflow" />
         </div>
       </section>
     </>
