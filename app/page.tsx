@@ -1,17 +1,21 @@
 import Hero from '@/components/Hero'
-import SobreMi from '@/components/SobreMi'
+import QueEsArteterapia from '@/components/QueEsArteterapia'
 import ServiciosSection from '@/components/ServiciosSection'
+import SobreMi from '@/components/SobreMi'
 import Testimonios from '@/components/Testimonios'
-import Contacto from '@/components/Contacto'
+import AgendaSection from '@/components/AgendaSection'
+import InstagramFeed from '@/components/InstagramFeed'
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <SobreMi />
+      <QueEsArteterapia />
       <ServiciosSection />
+      <SobreMi />
       <Testimonios />
-      <Contacto />
+      <AgendaSection />
+      <InstagramFeed />
     </>
   )
 }

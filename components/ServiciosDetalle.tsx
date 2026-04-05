@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Link from 'next/link'
+import { CalendlyPopupButton } from './CalendlyWidget'
 
 const servicios = [
   {
@@ -160,12 +160,9 @@ export default function ServiciosDetalle() {
                     <p className="font-body text-xs text-negro/45 mb-6">
                       por sesión / taller
                     </p>
-                    <Link
-                      href="/contacto"
-                      className={`block font-body font-semibold text-sm bg-negro text-crema rounded-full px-6 py-3 hover:bg-negro/80 transition-all duration-200 shadow-sm hover:shadow-md`}
-                    >
+                    <CalendlyPopupButton className="block w-full font-body font-semibold text-sm bg-negro text-crema rounded-full px-6 py-3 hover:bg-negro/80 transition-all duration-200 shadow-sm hover:shadow-md">
                       Reservar
-                    </Link>
+                    </CalendlyPopupButton>
                     <p className="font-body text-xs text-negro/40 mt-3">
                       Primera consulta gratuita
                     </p>

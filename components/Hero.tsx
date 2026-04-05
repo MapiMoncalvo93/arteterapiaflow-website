@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
+import { CalendlyPopupButton } from './CalendlyWidget'
 
 const containerVariants = {
   hidden: {},
@@ -75,12 +76,9 @@ export default function Hero() {
               variants={itemVariants}
               className="flex flex-col sm:flex-row gap-4 items-start sm:items-center"
             >
-              <Link
-                href="/contacto"
-                className="font-body font-semibold bg-terracota text-crema rounded-full px-10 py-4 hover:bg-terracota/90 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-base"
-              >
+              <CalendlyPopupButton className="font-body font-semibold bg-terracota text-crema rounded-full px-10 py-4 hover:bg-terracota/90 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-base">
                 Reservá tu sesión
-              </Link>
+              </CalendlyPopupButton>
               <Link
                 href="/servicios"
                 className="font-body font-semibold text-negro/80 hover:text-terracota transition-colors duration-200 flex items-center gap-2 group text-base"

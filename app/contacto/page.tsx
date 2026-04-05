@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ContactoForm from '@/components/ContactoForm'
+import CalendlyContactSection from '@/components/CalendlyContactSection'
 
 export const metadata: Metadata = {
   title: 'Contacto | ArteterapiaFlow',
@@ -131,6 +132,9 @@ export default function ContactoPage() {
           </div>
         </div>
       </section>
+
+      {/* Calendly Inline Widget */}
+      <CalendlyContactSection />
     </>
   )
 }
