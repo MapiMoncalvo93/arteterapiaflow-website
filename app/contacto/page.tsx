@@ -170,7 +170,7 @@ export default function ContactoPage() {
               Seleccioná el día y la hora que mejor se adapte a vos. Confirmación inmediata.
             </p>
           </div>
-          <CalendlyWidget url="https://calendly.com/arteterapiaflow" />
+          <CalendlyWidget url="https://calendly.com/mariapazmoncalvo/30min" />
         </div>
       </section>
     </>
