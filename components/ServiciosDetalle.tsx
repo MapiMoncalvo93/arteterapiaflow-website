@@ -26,7 +26,6 @@ const servicios = [
       'Opción de modalidad online por videollamada',
       'Seguimiento entre sesiones vía WhatsApp',
     ],
-    price: 'Desde $8.500 ARS',
     duration: '60 minutos',
     frequency: 'Semanal o quincenal',
   },
@@ -52,7 +51,6 @@ const servicios = [
       'Certificado de participación',
       'Acceso a comunidad privada de participantes',
     ],
-    price: 'Desde $4.200 ARS',
     duration: '2 horas',
     frequency: 'Encuentros mensuales',
   },
@@ -78,7 +76,6 @@ const servicios = [
       'Informe final con observaciones y recomendaciones',
       'Facturación a nombre de empresa',
     ],
-    price: 'Desde $45.000 ARS',
     duration: '3 a 4 horas',
     frequency: 'Jornada única o programa',
   },
@@ -146,30 +143,14 @@ export default function ServiciosDetalle() {
                   </ul>
                 </div>
 
-                {/* Price + CTA */}
-                <div className="md:w-64 flex-shrink-0">
-                  <div
-                    className={`${s.bgColor} rounded-2xl p-6 text-center border border-current border-opacity-20`}
+                {/* CTA */}
+                <div className="md:w-48 flex-shrink-0 flex items-center">
+                  <Link
+                    href="/contacto"
+                    className="block w-full font-body font-semibold text-sm bg-negro text-crema rounded-full px-6 py-3 text-center hover:bg-negro/80 transition-all duration-200 shadow-sm hover:shadow-md"
                   >
-                    <p className="font-body text-xs font-semibold uppercase tracking-widest text-negro/50 mb-2">
-                      Inversión
-                    </p>
-                    <p className={`font-display text-2xl font-bold ${s.textColor} mb-1`}>
-                      {s.price}
-                    </p>
-                    <p className="font-body text-xs text-negro/45 mb-6">
-                      por sesión / taller
-                    </p>
-                    <Link
-                      href="/contacto"
-                      className={`block font-body font-semibold text-sm bg-negro text-crema rounded-full px-6 py-3 hover:bg-negro/80 transition-all duration-200 shadow-sm hover:shadow-md`}
-                    >
-                      Reservar
-                    </Link>
-                    <p className="font-body text-xs text-negro/40 mt-3">
-                      Primera consulta gratuita
-                    </p>
-                  </div>
+                    Reservar
+                  </Link>
                 </div>
               </div>
             </div>
