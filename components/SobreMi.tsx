@@ -30,7 +30,7 @@ export default function SobreMi() {
               {/* Image container */}
               <div className="relative w-full h-full rounded-[40%_60%_55%_45%/50%_45%_55%_50%] overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500"
+                  src="/paz.jpg"
                   alt="Paz Moncalvo, arteterapeuta de ArteterapiaFlow"
                   fill
                   className="object-cover"
