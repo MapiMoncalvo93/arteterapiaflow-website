@@ -60,8 +60,8 @@ export default function Contacto() {
                 </div>
                 <div>
                   <p className="font-body text-xs font-semibold uppercase tracking-wider text-negro/50 mb-0.5">Email</p>
-                  <a href="mailto:hola@arteterapiaflow.com" className="font-body text-negro hover:text-terracota transition-colors">
-                    hola@arteterapiaflow.com
+                  <a href="mailto:mariapazmoncalvo@gmail.com" className="font-body text-negro hover:text-terracota transition-colors">
+                    mariapazmoncalvo@gmail.com
                   </a>
                 </div>
               </div>
@@ -74,8 +74,8 @@ export default function Contacto() {
                 </div>
                 <div>
                   <p className="font-body text-xs font-semibold uppercase tracking-wider text-negro/50 mb-0.5">WhatsApp</p>
-                  <a href="https://wa.me/+541100000000" target="_blank" rel="noopener noreferrer" className="font-body text-negro hover:text-salvia transition-colors">
-                    +54 11 0000-0000
+                  <a href="https://wa.me/59894963742" target="_blank" rel="noopener noreferrer" className="font-body text-negro hover:text-salvia transition-colors">
+                    +598 94 963 742
                   </a>
                 </div>
               </div>

@@ -90,8 +90,8 @@ export default function ContactoPage() {
                   </div>
                   <div>
                     <p className="font-body font-semibold text-negro text-sm uppercase tracking-wide mb-1">Email</p>
-                    <a href="mailto:hola@arteterapiaflow.com" className="font-body text-negro/70 hover:text-terracota transition-colors">
-                      hola@arteterapiaflow.com
+                    <a href="mailto:mariapazmoncalvo@gmail.com" className="font-body text-negro/70 hover:text-terracota transition-colors">
+                      mariapazmoncalvo@gmail.com
                     </a>
                   </div>
                 </div>
@@ -104,8 +104,8 @@ export default function ContactoPage() {
                   </div>
                   <div>
                     <p className="font-body font-semibold text-negro text-sm uppercase tracking-wide mb-1">WhatsApp</p>
-                    <a href="https://wa.me/+541100000000" target="_blank" rel="noopener noreferrer" className="font-body text-negro/70 hover:text-salvia transition-colors">
-                      +54 11 0000-0000
+                    <a href="https://wa.me/59894963742" target="_blank" rel="noopener noreferrer" className="font-body text-negro/70 hover:text-salvia transition-colors">
+                      +598 94 963 742
                     </a>
                   </div>
                 </div>
@@ -134,8 +134,8 @@ export default function ContactoPage() {
                   <div>
                     <p className="font-body font-semibold text-negro text-sm uppercase tracking-wide mb-1">Ubicación</p>
                     <p className="font-body text-negro/70">
-                      Buenos Aires, Argentina<br />
-                      <span className="text-sm">(Sesiones online disponibles)</span>
+                      Cordón, Montevideo<br />
+                      <span className="text-sm">Online disponible</span>
                     </p>
                   </div>
                 </div>
