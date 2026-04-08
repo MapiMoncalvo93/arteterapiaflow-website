@@ -89,26 +89,6 @@ export default function Hero() {
                 <span className="transform transition-transform duration-200 group-hover:translate-x-1">→</span>
               </Link>
             </motion.div>
-
-            <motion.div
-              variants={itemVariants}
-              className="mt-14 flex items-center gap-8"
-            >
-              <div className="text-center">
-                <p className="font-display text-3xl font-bold text-terracota">+200</p>
-                <p className="font-body text-sm text-negro/60 mt-1">Personas acompañadas</p>
-              </div>
-              <div className="w-px h-12 bg-negro/15" />
-              <div className="text-center">
-                <p className="font-display text-3xl font-bold text-terracota">8+</p>
-                <p className="font-body text-sm text-negro/60 mt-1">Años de experiencia</p>
-              </div>
-              <div className="w-px h-12 bg-negro/15" />
-              <div className="text-center">
-                <p className="font-display text-3xl font-bold text-terracota">100%</p>
-                <p className="font-body text-sm text-negro/60 mt-1">Online y presencial</p>
-              </div>
-            </motion.div>
           </motion.div>
 
           {/* Right: Image */}
@@ -126,8 +106,8 @@ export default function Hero() {
               {/* Main image */}
               <div className="relative w-80 h-96 md:w-96 md:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600"
-                  alt="Mujer pintando en una sesión de arteterapia"
+                  src="/paz.jpg"
+                  alt="Paz Moncalvo, arteterapeuta"
                   fill
                   className="object-cover"
                   priority
